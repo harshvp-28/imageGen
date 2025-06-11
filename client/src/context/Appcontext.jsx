@@ -11,7 +11,7 @@ const AppContextProvider = (props)=> {
     const [token,setToken] = useState(localStorage.getItem('token')) //stores token in local storage
     const[credit,setCredit] = useState(false)
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL //connecting frontend with backend
+    const backendUrl = https://imagegenbackend-499s.onrender.com //connecting frontend with backend
     const navigate = useNavigate()
     const loadCreditsData = async()=> {  // to load and show credits from api backend
         try {
